@@ -9,9 +9,9 @@
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>labshopoauthkeycloak</groupId>
-	<artifactId>order</artifactId>
+	<artifactId>oder</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>order</name>
+	<name>oder</name>
 	<description>Demo project for Spring Boot</description>
 
 	<properties>

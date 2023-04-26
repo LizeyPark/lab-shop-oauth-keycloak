@@ -1,9 +1,9 @@
 package labshopoauthkeycloak.common;
 
 import io.cucumber.spring.CucumberContextConfiguration;
-import labshopoauthkeycloak.OrderApplication;
+import labshopoauthkeycloak.OderApplication;
 import org.springframework.boot.test.context.SpringBootTest;
 
 @CucumberContextConfiguration
-@SpringBootTest(classes = { OrderApplication.class })
+@SpringBootTest(classes = { OderApplication.class })
 public class CucumberSpingConfiguration {}

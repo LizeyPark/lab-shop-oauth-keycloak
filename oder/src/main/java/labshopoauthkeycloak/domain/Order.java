@@ -3,7 +3,7 @@ package labshopoauthkeycloak.domain;
 import java.util.Date;
 import java.util.List;
 import javax.persistence.*;
-import labshopoauthkeycloak.OrderApplication;
+import labshopoauthkeycloak.OderApplication;
 import labshopoauthkeycloak.domain.OrderPlaced;
 import lombok.Data;
 
@@ -34,7 +34,7 @@ public class Order {
     public void onPrePersist() {}
 
     public static OrderRepository repository() {
-        OrderRepository orderRepository = OrderApplication.applicationContext.getBean(
+        OrderRepository orderRepository = OderApplication.applicationContext.getBean(
             OrderRepository.class
         );
         return orderRepository;
